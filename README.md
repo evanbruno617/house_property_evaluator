@@ -18,9 +18,17 @@ In order to provide analysis on this data I had to clean the excel files to get 
 
 After cleaning the data analysis for linearity between industries and housing data was done. The first step was finding the correlation between each industry and the housing data. For example, for Median Sales the table depicts the coefficient of correlation and the R-sqaured value beside it.
 
-(photo)
+![Sales[](medianprices.png](https://github.com/evanbruno617/house_property_evaluator/blob/main/Resources/medianprices.png)
 
 Given this data, a multiple linear regression model was constructed to predict Median sales using the variables that had the highest R-squared values. 
+
+Out of these values above, Finance and insurance, Construction, Retail trade, [Finance, insurance, real estate, rental, and leasing], and Construction was chosen for the multiple linear regression. They were chose because they are the top 5 variables with the highest R^2 values. When peforming the multiple linear regression with these variables this model is obtained. 
+
+![Sales[](medianprices.png](https://github.com/evanbruno617/house_property_evaluator/blob/main/Resources/price_lin.png)
+
+A coefficient of 0.998668 is obtained with a R^2 values of 0.592084 which is good values to obtain for this analysis. This data is using the sales data from December of every year from 2001 - 2022. It finds the relationship between the change in these variables variables year over year and the change in the median price of houses year over year in Decemeber. 
+
+
 
 
 
