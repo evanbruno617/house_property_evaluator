@@ -28,6 +28,23 @@ Out of these values above, Finance and insurance, Construction, Retail trade, [F
 
 A coefficient of 0.998668 is obtained with a R^2 values of 0.592084 which is good values to obtain for this analysis. This data is using the sales data from December of every year from 2001 - 2022. It finds the relationship between the change in these variables variables year over year and the change in the median price of houses year over year in Decemeber. 
 
+## Using Sum
+---
+The above data is only using the data from Decemeber of each month. Another hypothesis to be tested if there is a better correlation when taking the same of the total prices of each year. By performing the same analysis as before, it was found that Information and Construction have the highest R^2 values so this was used in the multiple linear regression. After performing the multiple linear regression this was the results.
+
+![pic](https://github.com/evanbruno617/house_property_evaluator/blob/main/Resources/Sum_price.png)
+
+This therefore shows that there is a high correlation between change in total prices for a year and the change in the performance  of Information and Constructing sectors of each county. This model has 68% of its variation explained by these variables.
+
+Another Data to note is that on its own, construction has a coefficent of 0.94 with an R^2 value of 0.65 therefore acting as a great linear relationship with Median House prices.
+
+# Conclusion
+---
+
+By peforming Linear regression analysis throughout these counties it is discovered that there is a high correlation between certain sectors and the change in median prices of houses in each county. This new found discovery can be used in the future to help predict prices of houses by predicting and forecasting the change in these sectors contributing to gdp in each county. 
+
+
+
 
 
 
