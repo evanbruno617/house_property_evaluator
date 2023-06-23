@@ -36,7 +36,7 @@ The above data is only using the data from Decemeber of each month. Another hypo
 
 This therefore shows that there is a high correlation between change in total prices for a year and the change in the performance  of Information and Constructing sectors of each county. This model has 68% of its variation explained by these variables.
 
-Another Data to note is that on its own, construction has a coefficent of 0.94 with an R^2 value of 0.65 therefore acting as a great linear relationship with Median House prices.
+Another Data point to note is that on its own, construction has a coefficent of 0.94 with an R^2 value of 0.65 therefore acting as a great linear relationship with Median House prices.
 
 # Conclusion
 ---
