@@ -30,7 +30,7 @@ A coefficient of 0.998668 is obtained with a R^2 values of 0.592084 which is goo
 
 ## Using Sum
 ---
-The above data is only using the data from Decemeber of each month. Another hypothesis to be tested if there is a better correlation when taking the same of the total prices of each year. By performing the same analysis as before, it was found that Information and Construction have the highest R^2 values so this was used in the multiple linear regression. After performing the multiple linear regression this was the results.
+The above data is only using the data from Decemeber of each month. Another hypothesis to be tested if there is a better correlation when taking the sum of the total prices of each year. By performing the same analysis as before, it was found that Information and Construction have the highest R^2 values so this was used in the multiple linear regression. After performing the multiple linear regression this was the results.
 
 ![pic](https://github.com/evanbruno617/house_property_evaluator/blob/main/Resources/Sum_price.png)
 
